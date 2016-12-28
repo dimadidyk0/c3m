@@ -1,0 +1,398 @@
+/* fonts */
+
+
+@font-face {
+    font-family: 'globerregular';
+    src: url('../fonts/GloberRegular/glober_regular-webfont.eot');
+    src: url('../fonts/GloberRegular/glober_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GloberRegular/GloberRegular.otf') format('truetype'),
+    url('../fonts/GloberRegular/glober_regular-webfont.woff') format('woff'),
+    url('../fonts/GloberRegular/glober_regular-webfont.ttf') format('truetype'),
+    url('../fonts/GloberRegular/glober_regular-webfont.svg#glober_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {    
+    font-family: 'globerbold';
+    src: url('../fonts/GloberBold/glober_bold-webfont.eot');
+    src: url('../fonts/GloberBold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GloberBold/glober_bold-webfont.woff') format('woff'),
+    url('../fonts/GloberBold/glober_bold-webfont.ttf') format('truetype'),
+    url('../fonts/GloberBold/glober_bold-webfont.svg#globerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cinzelblack';
+    src: url('../fonts/cinzel/cinzel-black-webfont.eot');
+    src: url('../fonts/cinzel/cinzel-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cinzel/cinzel-black-webfont.woff2') format('woff2'),
+    url('../fonts/cinzel/cinzel-black-webfont.woff') format('woff'),
+    url('../fonts/cinzel/cinzel-black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cinzelbold';
+    src: url('../fonts/cinzel/cinzel-bold-webfont.eot');
+    src: url('../fonts/cinzel/cinzel-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cinzel/cinzel-bold-webfont.woff2') format('woff2'),
+    url('../fonts/cinzel/cinzel-bold-webfont.woff') format('woff'),
+    url('../fonts/cinzel/cinzel-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('../fonts/cinzel/cinzel-regular-webfont.eot');
+    src: url('../fonts/cinzel/cinzel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cinzel/cinzel-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cinzel/cinzel-regular-webfont.woff') format('woff'),
+    url('../fonts/cinzel/cinzel-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* /fonts */
+
+
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+html, body {
+    min-height: auto;
+    height: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* /reset */
+
+.registration, 
+.entrance, 
+.portal {
+    background-color: #1B1B1B;
+    color: white;
+    background-image: url(../img/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: 43% bottom;
+    min-height: auto;
+    height: 100%;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+.registration__header, 
+.entrance__header {
+    font: 33px cinzelbold;
+    text-align: center;
+    padding: 49px 0px 42px 16px;
+    letter-spacing: 0.2px;
+    color: #00F5EA;
+}
+.registration__input, 
+.entrance__input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #585858;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    color: white;
+    height: 29px;
+    font: 16px globerregular;
+    letter-spacing: 0.3px;
+}
+
+::-webkit-input-placeholder {color:#434343;}
+::-moz-placeholder          {color:#434343;}/* Firefox 19+ */
+:-moz-placeholder           {color:#434343;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#434343;}
+
+.registration__remember-text, 
+.entrance__remember-text {
+    font: 16px globerregular;
+    text-align: center;
+    padding: 33px 0 0 0;
+    color: #FFFFFD;
+    opacity: 0.35;
+}
+.entrance__remember-text {
+    color: white;
+    opacity: 1;
+}
+.remember__pin, .entrance__pin {
+    font: 33px globerbold;
+    color: white;
+    text-align: center;
+    padding: 3px 8px 54px 0;
+}
+.entrance__enter-pin {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 33px;
+    color: #E7E7E7;
+    letter-spacing: 20px;
+    width: 150px;
+    height: 46px;
+    padding: 3px 0 54px 20px;
+    position: relative;
+}
+
+.entrance__enter-pin::-webkit-input-placeholder {letter-spacing: 8px;}
+.entrance__enter-pin::-moz-placeholder          {letter-spacing: 8px;}
+.entrance__enter-pin:-moz-placeholder           {letter-spacing: 8px;}
+.entrance__enter-pin:-ms-input-placeholder      {letter-spacing: 8px;}
+
+.registration__sign-up, .entrance__sign-in {
+    width: 302px;
+    background-color: #00F5EA;
+    display: block;
+    margin: 0 auto;
+    padding: 12px 0 10px;
+    text-align: center;
+    color: black;
+    font: 15px/21px globerbold;
+    border-radius: 20px;
+}
+.registration__sign-up-fb, .entrance__sign-in-fb {
+    width: 292px;
+    border: 1px solid rgba(251, 251, 251, 0.41);
+    display: block;
+    text-transform: uppercase;
+    font: 15px/17px globerregular;
+    text-align: center;
+    margin: 28px auto 0;
+    padding: 17px 0 9px 8px;
+    letter-spacing: 0.1px;
+    border-radius: 20px;
+    position: relative;
+}
+.registration__sign-in, .entrance__sign-up {
+    font: 15px globerbold;
+    color: #00F5EA;
+    text-align: center;
+    padding: 144px 0 28px;
+    display: block;
+}
+.registration__reg-fb:before {
+    content: "";
+    background: url(../img/fb-icon.png);
+    height: 20px;
+    width: 9.5px;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 22px;
+}
+
+
+/*
+    #########################
+    #####   PORTAL.HTML #####
+    #########################
+*/
+.portal__header {
+    color: white;
+    padding: 44px 0px 37px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    font: 33px cinzelbold;
+}
+.portal__item {
+    color: #FBFBFB;
+    font: 15px/20px globerbold;
+    text-transform: uppercase;
+    letter-spacing: -0.22px;
+    padding: 0 0 39px 10px;
+    position: relative;
+}
+.portal__item-arrow {
+    height: 18px;
+    width: 10.5px;
+    position: absolute;
+    right: -6px;
+}
+/*.portal__item-hidden {
+    display: none;
+}
+.portal__item-vissible {
+    display: block;
+}*/
+.portal__item a {
+    display: block;
+}
+
+/*
+    #########################
+    #####   STATS.HTML  #####
+    #########################
+*/
+.stats {
+    background: black;
+    height: auto;
+    min-height: 100%;
+    color: white;
+}
+.stats__container {
+    width: 375px;
+    margin: 0 auto;
+}
+.stats__nickname {
+    font: 15px/20px globerbold;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.3px;
+    background-color: #1B1B1B;
+    padding: 16px 0 14px;
+}
+.stats__back-link {
+    height: 18px;
+    width: 10.5px;
+    position: absolute;
+    left: 16px;
+    background: url(../img/arrow.png);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-size: cover;
+}
+.stats__raiting-block {
+    display: inline-block;
+    padding: 34px 0 25px 0;
+    width: 122px;
+    text-align: center;    
+    vertical-align: top;
+}
+.stats__header {
+    font: 11px/13px cinzelregular;
+    color: #bbbbbb;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+    display: block;
+}
+.prestige-value {
+    font: 27px globerbold;
+    color: white;
+    display: block;
+    padding: 5px 3px 0 0;
+}
+.wins-value {
+    display: block;
+    font: 16px globerbold;
+    color: #00F5EA;
+    padding: 13px 0 0 4px;
+}
+.looses-value {
+    font: 16px globerbold;
+    display: block;
+    color: #FC2229;
+    padding: 13px 0 0 3px;
+}
+.stats__item-value {
+    display: inline-block;
+    font: 13px/17px globerbold;
+    color: #00F5EA;
+    text-align: right;
+    width: 30px;
+    vertical-align: top;
+    padding-right: 4px;
+}
+.stats__item-text {
+    font: 12px/12px globerregular;
+    text-align: left;
+    padding: 5px 0 1px 4px;
+    color: white;
+    background-color: #1B1B1D;
+    display: inline-block;
+    width: 130px;
+    vertical-align: bottom;
+}
+.stats__item {
+    display: inline-block;
+    padding: 0px 0px 3px 4px;
+}
+.stats__list-block {
+    padding: 8px 0 0 3px;
+}
+.separate {
+    width: 8px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
