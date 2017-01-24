@@ -614,6 +614,14 @@ a {
     display: inline-block;
 }
 
+li.leaderboard__list-item:nth-child(2n-1) {
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+li.leaderboard__list-item:nth-child(2n) {
+    background-color: rgba(0, 245, 234, 0.01);
+}
+
 @media (min-width: 375px) {
     .leaderboard-list {
         width: 375px;
