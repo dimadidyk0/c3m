@@ -1,57 +1,41 @@
 /* fonts */
 
-
 @font-face {
     font-family: 'globerregular';
     src: url('../fonts/GloberRegular/glober_regular-webfont.eot');
-    src: url('../fonts/GloberRegular/glober_regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/GloberRegular/GloberRegular.otf') format('truetype'),
-    url('../fonts/GloberRegular/glober_regular-webfont.woff') format('woff'),
-    url('../fonts/GloberRegular/glober_regular-webfont.ttf') format('truetype'),
-    url('../fonts/GloberRegular/glober_regular-webfont.svg#glober_regularregular') format('svg');
+    src: url('../fonts/GloberRegular/glober_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/GloberRegular/GloberRegular.otf') format('truetype'), url('../fonts/GloberRegular/glober_regular-webfont.woff') format('woff'), url('../fonts/GloberRegular/glober_regular-webfont.ttf') format('truetype'), url('../fonts/GloberRegular/glober_regular-webfont.svg#glober_regularregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-@font-face {    
+
+@font-face {
     font-family: 'globerbold';
     src: url('../fonts/GloberBold/glober_bold-webfont.eot');
-    src: url('../fonts/GloberBold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/GloberBold/glober_bold-webfont.woff') format('woff'),
-    url('../fonts/GloberBold/glober_bold-webfont.ttf') format('truetype'),
-    url('../fonts/GloberBold/glober_bold-webfont.svg#globerbold') format('svg');
+    src: url('../fonts/GloberBold/glober_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/GloberBold/glober_bold-webfont.woff') format('woff'), url('../fonts/GloberBold/glober_bold-webfont.ttf') format('truetype'), url('../fonts/GloberBold/glober_bold-webfont.svg#globerbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'cinzelblack';
     src: url('../fonts/cinzel/cinzel-black-webfont.eot');
-    src: url('../fonts/cinzel/cinzel-black-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/cinzel/cinzel-black-webfont.woff2') format('woff2'),
-    url('../fonts/cinzel/cinzel-black-webfont.woff') format('woff'),
-    url('../fonts/cinzel/cinzel-black-webfont.ttf') format('truetype');
+    src: url('../fonts/cinzel/cinzel-black-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/cinzel/cinzel-black-webfont.woff2') format('woff2'), url('../fonts/cinzel/cinzel-black-webfont.woff') format('woff'), url('../fonts/cinzel/cinzel-black-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
+
 @font-face {
     font-family: 'cinzelbold';
     src: url('../fonts/cinzel/cinzel-bold-webfont.eot');
-    src: url('../fonts/cinzel/cinzel-bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/cinzel/cinzel-bold-webfont.woff2') format('woff2'),
-    url('../fonts/cinzel/cinzel-bold-webfont.woff') format('woff'),
-    url('../fonts/cinzel/cinzel-bold-webfont.ttf') format('truetype');
+    src: url('../fonts/cinzel/cinzel-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/cinzel/cinzel-bold-webfont.woff2') format('woff2'), url('../fonts/cinzel/cinzel-bold-webfont.woff') format('woff'), url('../fonts/cinzel/cinzel-bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
+
 @font-face {
     font-family: 'cinzelregular';
     src: url('../fonts/cinzel/cinzel-regular-webfont.eot');
-    src: url('../fonts/cinzel/cinzel-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/cinzel/cinzel-regular-webfont.woff2') format('woff2'),
-    url('../fonts/cinzel/cinzel-regular-webfont.woff') format('woff'),
-    url('../fonts/cinzel/cinzel-regular-webfont.ttf') format('truetype');
+    src: url('../fonts/cinzel/cinzel-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/cinzel/cinzel-regular-webfont.woff2') format('woff2'), url('../fonts/cinzel/cinzel-regular-webfont.woff') format('woff'), url('../fonts/cinzel/cinzel-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -62,19 +46,87 @@
 
 /* reset */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -82,47 +134,73 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-html, body {
+
+html,
+body {
     min-height: auto;
     height: 100%;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
     list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 body {
     background-color: white;
     color: black;
     overflow-x: hidden;
 }
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
+
 /* /reset */
 
-.registration, 
-.entrance, 
+.registration,
+.entrance,
 .portal {
     background-color: #1B1B1B;
     color: white;
@@ -132,11 +210,13 @@ a {
     min-height: auto;
     height: 100%;
 }
+
 .container {
     width: 320px;
     margin: 0 auto;
 }
-.registration__header, 
+
+.registration__header,
 .entrance__header {
     font: 33px cinzelbold;
     text-align: center;
@@ -144,7 +224,8 @@ a {
     letter-spacing: 0.2px;
     color: #00F5EA;
 }
-.registration__input, 
+
+.registration__input,
 .entrance__input {
     background: transparent;
     border: none;
@@ -159,12 +240,29 @@ a {
     letter-spacing: 0.3px;
 }
 
-::-webkit-input-placeholder {color:#434343;}
-::-moz-placeholder          {color:#434343;}/* Firefox 19+ */
-:-moz-placeholder           {color:#434343;}/* Firefox 18- */
-:-ms-input-placeholder      {color:#434343;}
+::-webkit-input-placeholder {
+    color: #434343;
+}
 
-.registration__remember-text, 
+::-moz-placeholder {
+    color: #434343;
+}
+
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #434343;
+}
+
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #434343;
+}
+
+.registration__remember-text,
 .entrance__remember-text {
     font: 16px globerregular;
     text-align: center;
@@ -172,16 +270,20 @@ a {
     color: #FFFFFD;
     opacity: 0.35;
 }
+
 .entrance__remember-text {
     color: white;
     opacity: 1;
 }
-.remember__pin, .entrance__pin {
+
+.remember__pin,
+.entrance__pin {
     font: 33px globerbold;
     color: white;
     text-align: center;
     padding: 3px 8px 54px 0;
 }
+
 .entrance__enter-pin {
     background: transparent;
     border: none;
@@ -197,12 +299,24 @@ a {
     position: relative;
 }
 
-.entrance__enter-pin::-webkit-input-placeholder {letter-spacing: 8px;}
-.entrance__enter-pin::-moz-placeholder          {letter-spacing: 8px;}
-.entrance__enter-pin:-moz-placeholder           {letter-spacing: 8px;}
-.entrance__enter-pin:-ms-input-placeholder      {letter-spacing: 8px;}
+.entrance__enter-pin::-webkit-input-placeholder {
+    letter-spacing: 8px;
+}
 
-.registration__sign-up, .entrance__sign-in {
+.entrance__enter-pin::-moz-placeholder {
+    letter-spacing: 8px;
+}
+
+.entrance__enter-pin:-moz-placeholder {
+    letter-spacing: 8px;
+}
+
+.entrance__enter-pin:-ms-input-placeholder {
+    letter-spacing: 8px;
+}
+
+.registration__sign-up,
+.entrance__sign-in {
     width: 302px;
     background-color: #00F5EA;
     display: block;
@@ -213,7 +327,9 @@ a {
     font: 15px/21px globerbold;
     border-radius: 20px;
 }
-.registration__sign-up-fb, .entrance__sign-in-fb {
+
+.registration__sign-up-fb,
+.entrance__sign-in-fb {
     width: 292px;
     border: 1px solid rgba(251, 251, 251, 0.41);
     display: block;
@@ -226,13 +342,16 @@ a {
     border-radius: 20px;
     position: relative;
 }
-.registration__sign-in, .entrance__sign-up {
+
+.registration__sign-in,
+.entrance__sign-up {
     font: 15px globerbold;
     color: #00F5EA;
     text-align: center;
     padding: 144px 0 28px;
     display: block;
 }
+
 .registration__reg-fb:before {
     content: "";
     background: url(../img/fb-icon.png);
@@ -251,6 +370,7 @@ a {
     #####   PORTAL.HTML #####
     #########################
 */
+
 .portal__header {
     color: white;
     padding: 44px 0px 37px 0;
@@ -258,6 +378,7 @@ a {
     text-align: center;
     font: 33px cinzelbold;
 }
+
 .portal__item {
     color: #FBFBFB;
     font: 15px/20px globerbold;
@@ -266,37 +387,45 @@ a {
     padding: 0 0 39px 10px;
     position: relative;
 }
+
 .portal__item-arrow {
     height: 18px;
     width: 10.5px;
     position: absolute;
     right: -6px;
 }
+
+
 /*.portal__item-hidden {
     display: none;
 }
 .portal__item-vissible {
     display: block;
 }*/
+
 .portal__item a {
     display: block;
 }
+
 
 /*
     #########################
     #####   STATS.HTML  #####
     #########################
 */
+
 .stats {
     background: black;
     height: auto;
     min-height: 100%;
     color: white;
 }
+
 .stats__container {
     width: 375px;
     margin: 0 auto;
 }
+
 .stats__nickname {
     font: 15px/20px globerbold;
     color: white;
@@ -305,6 +434,7 @@ a {
     background-color: #1B1B1B;
     padding: 16px 0 14px;
 }
+
 .stats__back-link {
     height: 18px;
     width: 10.5px;
@@ -316,13 +446,15 @@ a {
     transform: rotate(180deg);
     background-size: cover;
 }
+
 .stats__raiting-block {
     display: inline-block;
     padding: 34px 0 25px 0;
     width: 122px;
-    text-align: center;    
+    text-align: center;
     vertical-align: top;
 }
+
 .stats__header {
     font: 11px/13px cinzelregular;
     color: #bbbbbb;
@@ -331,24 +463,28 @@ a {
     opacity: 0.7;
     display: block;
 }
+
 .prestige-value {
     font: 27px globerbold;
     color: white;
     display: block;
     padding: 5px 3px 0 0;
 }
+
 .wins-value {
     display: block;
     font: 16px globerbold;
     color: #00F5EA;
     padding: 13px 0 0 4px;
 }
+
 .looses-value {
     font: 16px globerbold;
     display: block;
     color: #FC2229;
     padding: 13px 0 0 3px;
 }
+
 .stats__item-value {
     display: inline-block;
     font: 13px/17px globerbold;
@@ -358,6 +494,7 @@ a {
     vertical-align: top;
     padding-right: 4px;
 }
+
 .stats__item-text {
     font: 12px/12px globerregular;
     text-align: left;
@@ -368,13 +505,16 @@ a {
     width: 130px;
     vertical-align: bottom;
 }
+
 .stats__item {
     display: inline-block;
     padding: 0px 0px 3px 4px;
 }
+
 .stats__list-block {
     padding: 8px 0 0 3px;
 }
+
 .separate {
     width: 8px;
     display: inline-block;
@@ -382,17 +522,103 @@ a {
 }
 
 
+/*  #######################
+###### RATING ############
+######################## */
 
+.leaderboard {
+    position: relative;
+    height: 100%;
+    background: url(../img/leaderboard-bg.png) no-repeat;
+}
 
+.leaderboard-header {
+    background: white;
+    width: 100%;
+    text-align: center;
+    height: 26px;
+    font: 14px globerbold;
+    padding: 14px 0 0 0;
+    color: #3A3A3A;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+}
 
+.leaderboard__header-bg {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+}
 
+.leaderboard__footer-bg {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
 
+.leaderboard-list {
+    padding-top: 30%;
+    height: 70%;
+    width: 320px;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
 
+.leaderboard__list-item {
+    height: 24px;
+    padding: 10px 15px;
+}
 
+.leaderboard__position {
+    font: 13px globerbold;
+    color: #3A3A3A;
+    display: inline-block;
+    width: 25px;
+    text-align: right;
+    margin-left: -10px;
+}
 
+.leaderboard__name,
+.leaderboard__rating {
+    font: 16px globerbold;
+}
 
+.leaderboard__rating {
+    float: right;
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+}
 
+.leaderboard__name {
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    width: 110px;
+}
 
+.leaderboard__games-1 {
+    font: 12px globerbold;
+    color: #1F4752;
+}
 
+.leaderboard__games-2 {
+    color: #79B2C0;
+    font: 12px globerbold;
+}
 
+.leaderboard__games {
+    width: 60px;
+    text-align: right;
+    display: inline-block;
+}
 
+@media (min-width: 375px) {
+    .leaderboard-list {
+        width: 375px;
+    }
+    .leaderboard__name {
+        width: 130px;
+    }
+}
